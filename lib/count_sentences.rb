@@ -11,7 +11,10 @@ class String
   end
 
   def question?
-    self.end_with?("?") ? true : false
+    if self.end_with?("?")
+      true
+    else
+      false
     end
   end
 
