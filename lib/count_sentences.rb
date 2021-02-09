@@ -3,7 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    
+    if string[-1] == "!"
+    end
   end
 
   def question?
